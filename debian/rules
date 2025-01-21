@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_strip_nondeterminism:
+	# Disable dh_strip_nondeterminism to speed up the build

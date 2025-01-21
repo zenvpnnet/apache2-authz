@@ -1,0 +1,5 @@
+/.debhelper
+/debhelper-*
+/files
+/zenvpn-apache2-authz*
+

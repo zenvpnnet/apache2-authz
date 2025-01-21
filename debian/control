@@ -1,0 +1,14 @@
+Source: zenvpn-apache2-authz
+Section: net
+Priority: optional
+Maintainer: Viktar <victorenator@gmail.com>
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 13),
+Standards-Version: 4.6
+
+Package: zenvpn-apache2-authz
+Architecture: all
+Depends: lua-json, lua-sec, lua-socket,
+Enhances: apache2,
+Description: ZenVPN Authorization Provider for Apache2

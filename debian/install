@@ -1,0 +1,2 @@
+zenvpn-authz.conf /etc/apache2/conf-available/
+zenvpn-authz.lua /usr/share/zenvpn-apache2-authz/
